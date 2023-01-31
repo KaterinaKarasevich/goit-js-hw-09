@@ -21,7 +21,7 @@ startBtn.addEventListener("click", () => {
 stopBtn.addEventListener("click", () => {
   startBtn.removeAttribute("disabled");
   clearInterval(timerId);
-  alert("The timer has been stoppped!") 
+  alert("The timer has been stoppped already!") 
   stopBtn.setAttribute("disabled", true); //
 });
 

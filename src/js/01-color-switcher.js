@@ -6,6 +6,7 @@ console.log(stopBtn)
 const body = document.querySelector("body");
 console.log(body)
 
+let timerId = null;
 
 startBtn.addEventListener("click", () => {
   stopBtn.removeAttribute("disabled");
